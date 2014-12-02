@@ -1,0 +1,1 @@
+{3 {:renters {}, :rented 0, :title "Tron: Legacy", :price 0.99, :quantity 1}, 2 {:renters {}, :rented 0, :title "Tron", :price 99.99, :quantity 1}, 1 {:renters {}, :rented 0, :title "Blade Runner", :price 2.5, :quantity 1}}
