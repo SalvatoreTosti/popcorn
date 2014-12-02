@@ -1,4 +1,4 @@
-# assignment5
+# Popcorn
 
 Movie Database Manager
 This program is designed for use in a video rental store.
