@@ -14,8 +14,8 @@ It has the following capabilities:
 ## Usage
 
 If leingen is installed on your system, you can activate the program using 'lein run' from within this directory.
-If leingen is not installed, running the following command on the 'standalone' jar should run the program.
-    $ java -jar assignment5-0.1.0-standalone.jar [args]
+If leingen is not installed, running the following command on the 'standalone' jar should run the program. (jar is located in target/uberjar)
+    $ java -jar manager-0.1.0-standalone.jar [args]
 
 ## Options
 
@@ -27,6 +27,14 @@ but this can be removed and then allow the user to create their own database fro
 1. table-x does not properly sort ID's after 10, when double digits appear it does not sort in ascending or descending order correctly.
      Note: Converting ID's to strings / double did not alter behavior.
 2. When entering a number for a price, or otherwise, prefacing the number with a '#' results in an improperly caught error.
+
+3. New price entry is not limited to 2 decimal digits. (As change is in USD)
+
+##Future Developments
+- Remove the implementation of :use in favor of :require
+- Add menubar
+- Add skins to swing
+- Make jar file executable from double click
 
 ## License
 
